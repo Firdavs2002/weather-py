@@ -1,0 +1,69 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body {
+  /* фон сгенерировал из https://cssgradient.io/ */
+  background: rgb(31,60,136);
+  background: linear-gradient(66deg, rgba(31,60,136,1) 45%, rgba(238,111,87,1) 100%);
+  overflow: hidden;
+  height: 100vh;
+  font-family: Arial, sans-sarif;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+input {
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  background: rgba(255, 255, 255, .5);
+  color: #fff;
+  outline: none;
+  width: 100%;
+  font-size: 20px;
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, .5);
+
+}
+
+button {
+  background: #182f69;
+  border: none;
+  border-radius: 10px;
+  display: block;
+  padding: 20px;
+  color: #fff;
+  cursor: pointer;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: #ee6f57;
+}
+
+.output {
+  margin: 20px 0;
+  font-size: 20px;
+  text-align: center;
+}
