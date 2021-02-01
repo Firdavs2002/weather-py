@@ -1,9 +1,11 @@
 comands:
 
-git clone https://github.com/Firdavs2002/weather-py.git
+    git clone https://github.com/Firdavs2002/weather-py.git
 
-pip install eel
+    pip install eel
 
-pip install pyowm
+    pip install pyowm
 
-python main.py
+    cd weather-py
+
+    python main.py
